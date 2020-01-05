@@ -10,9 +10,7 @@ xInput.oninput = showSum;
 yInput.oninput = showSum;
 
 function showSum() {
-    const x = Number(xInput.value);
-    const y = Number(yInput.value);
-
-    sum.textContent = add(x, y);
+  const x = Number(xInput.value);
+  const y = Number(yInput.value);
+  sum.textContent = add(x, y);
 }
-
